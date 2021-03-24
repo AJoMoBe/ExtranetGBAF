@@ -1,8 +1,8 @@
 /* footer */
 
 footer{
-	border-top: 1px solid #db0129;
-	box-shadow: 0px -4px 6px #b4b4b4;
+	border-top: 0.063em solid #db0129;
+	box-shadow: 0em -0.25em 0.375em #b4b4b4;
 }
 
 footer ul{
@@ -12,23 +12,23 @@ footer ul{
 }
 
 footer ul li{
-	margin-right: 30px;
+	margin-right: 1.875em;
 	vertical-align: middle;
 }
 
 .li_ml{
-	border: 1px solid #b4b4b4;
-	height: 20px;
-	line-height: 20px;
-	padding: 5px;
+	border: 0.063em solid #b4b4b4;
+	height: 1.25em;
+	line-height: 1.25em;
+	padding: 0.313em;
 	font-size: x-small;
 }
 
 .li_contact{
-	border: 1px solid #b4b4b4;
-	height: 20px;
-	line-height: 20px;
-	padding: 5px;
+	border: 0.063em solid #b4b4b4;
+	height: 1.25em;
+	line-height: 1.25em;
+	padding: 0.313em;
 	font-size: x-small;
 }
 

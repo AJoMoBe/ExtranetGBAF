@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+require 'auth.php';
+user_connect();
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

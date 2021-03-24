@@ -8,12 +8,12 @@ body{
 }
 
 .presentation{
-	border: 1px solid #db0129;
-	border-radius: 15px;
-	margin: 10%;
+	border: 0.063em solid #db0129;
+	border-radius: 0.938em;
+	margin: 7.55em;
 	text-align: center;
 	background: #ffffff;
-	box-shadow: 8px 8px 8px #b4b4b4;
+	box-shadow: 0.5em 0.5em 0.5em #b4b4b4;
 	color: #333333;
 }
 
@@ -22,19 +22,19 @@ h1{
 }
 
 .img-presentation{
-	width: 95%;
-	padding: 20px;
+	width: 60em;
+	padding: 1.25em;
 }
 
 .act-part{
 	background: #ffffff;
 	text-align: center;
-	border: 1px solid #db0129;
-	border-radius: 15px;
-	margin: 10%;
+	border: 0.063em solid #db0129;
+	border-radius: 0.938em;
+	margin: 7.55em;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 8px 8px 8px #b4b4b4;
+	box-shadow: 0.5em 0.5em 0.5em #b4b4b4;
 }
 
 h2{
@@ -44,10 +44,10 @@ h2{
 article{
 	display: flex;
 	flex-direction: row;
-	border: 1px solid #b4b4b4;
-	margin: 10px;
+	border: 0.063em solid #b4b4b4;
+	margin: 0.625em;
 	background: #f5f5f5;
-	box-shadow: 2px 2px 2px #b4b4b4;
+	box-shadow: 0.125em 0.125em 0.125em #b4b4b4;
 
 }
 
@@ -60,11 +60,14 @@ p{
 }
 
 .logo{
-	width: 20%;
+	margin: 0.5em;
+	width: 11em;
+	height: 7em;
+	object-fit: contain;
 }
 
 div{
-	margin: 5px 15px 5px 50px;
+	margin: 1em;
 	text-align: left;
 	display: flex;
 	flex-direction: column;
@@ -72,11 +75,11 @@ div{
 }
 
 button{
-	height: 30%;
-	width: 10%;
-	margin-bottom: 15px;
-	margin-top: 130px;
-	border-radius: 5px;
+	height: 2em;
+	width: 8em;
+	margin-bottom: 0.5em;
+	margin-top: 10em;
+	border-radius: 0.313em;
 	background: #db0129;
 	border-color: #b00021;
 	color: #ffffff;
@@ -84,18 +87,18 @@ button{
 }
 
 .button-suite1{
-	margin-left: 240px;
+	margin-left: 17.5em;
 }
 
 .button-suite2{
-	margin-left: 514px;
+	margin-left: 32.125em;
 }
 
 .button-suite3{
-	margin-left: 57px;
+	margin-left: 3.563em;
 }
 
 .button-suite4{
-	margin-left: 505px;
+	margin-left: 31.563em;
 }
 

@@ -3,14 +3,14 @@ body{
 }
 
 .setting_user{
-	border: 1px solid #db0129;
-	border-radius: 15px;
-	margin: 10%;
+	border: 0.063em solid #db0129;
+	border-radius: 0.938em;
+	margin: 7.55em;
 	text-align: center;
 	background: #ffffff;
-	box-shadow: 8px 8px 8px #b4b4b4;
+	box-shadow: 0.5em 0.5em 0.5em #b4b4b4;
 	color: #333333;
-	line-height: 50px;
+	line-height: 2.125em;
 }
 
 .header_card_setting{
@@ -18,7 +18,7 @@ body{
 	font-size: large;
 	font-weight: bold;
 	color: #333333;
-	margin: 15px;
+	margin: 0.938em;
 }
 
 input{
@@ -26,12 +26,12 @@ input{
 }
 
 .button_actualiser{
-	width: 250px;
-    height: 30px;
+	width: 15.625em;
+    height: 1.875em;
     border-color: #b00021;
     background-color: #db0129;
     color: #ffffff;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 0.313em;
     cursor: pointer;
 }

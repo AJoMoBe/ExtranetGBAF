@@ -5,15 +5,14 @@ body{
 
 section{
 	text-align: center;
-    margin-top: 10%;
-    border: 1px solid #db0129;
-    border-radius: 15px;
-    margin: 10%;
-    line-height: 50px;
+    border: 0.063em solid #db0129;
+    border-radius: 0.938em;
+    margin: 7.55em;
+    line-height: 3.125em;
     font-size: medium;
-    padding-top: 20px;
+    padding: 1.25em;
     background: #ffffff;
-    box-shadow: 8px 8px 8px #b4b4b4;
+    box-shadow: 0.5em 0.5em 0.5em #b4b4b4;
     color: #333333;
 }
 
@@ -21,11 +20,11 @@ section{
 	display: flex;
     flex-direction: column;
     text-align: left;
-    padding-left: 20px;
-    border: 1px solid #b4b4b4;
-    margin: 20px;
+    padding-left: 1.25em;
+    border: 0.063em solid #b4b4b4;
+    margin: 1.25em;
     color: #333333;
-    box-shadow: 2px 2px 2px #b4b4b4;
+    box-shadow: 0.125em 0.125em 0.125em #b4b4b4;
 }
 
 .header-coms{
@@ -36,9 +35,9 @@ section{
 }
 
 .newcoms{
-	width: 15%;
-    height: 30px;
-    border-radius: 5px;
+	width: 14em;
+    height: 1.875em;
+    border-radius: 0.313em;
     font-weight: bold;
     background: #db0129;
     border-color: #b00021;
@@ -52,7 +51,7 @@ section{
 }
 
 .vote_btns_dislike{
-	margin-left: 30px;
+	margin-left: 1.875em;
 }
 
 .vote_btns_like{
