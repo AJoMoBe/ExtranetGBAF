@@ -2,6 +2,7 @@
 
 session_start();
 require 'auth.php';
+require 'database.php';
 user_connect();
 
 
@@ -44,7 +45,7 @@ user_connect();
         <h3>Formation&Co</h3>
         <p>Formation&co est une association française présente sur tout le territoire...</p>
       </div>
-      <button onclick="window.location.href ='#'" class="button-suite1">Suite</button>
+      <button onclick="window.location.href ='acteur.php?id=1'" class="button-suite1">Suite</button>
     </article>
 
     <article>
@@ -54,7 +55,7 @@ user_connect();
         <p>Protectpeople finance la solidarité nationale...
 </p>
       </div>
-      <button onclick="window.location.href = '#';" class="button-suite2">Suite</button>
+      <button onclick="window.location.href = 'acteur.php?id=2';" class="button-suite2">Suite</button>
     </article>
 
     <article>
@@ -63,7 +64,7 @@ user_connect();
         <h3>DSA France</h3>
         <p>Dsa France accélère la croissance du territoire et s’engage avec les collectivités territoriales...</p>
       </div>
-      <button onclick="window.location.href = '#'" class="button-suite3">Suite</button>
+      <button onclick="window.location.href = 'acteur.php?id=3'" class="button-suite3">Suite</button>
     </article>
 
     <article>
@@ -72,7 +73,7 @@ user_connect();
         <h3>CDE</h3>
         <p>Nous sommes la Chambre Des Entrepreneurs..</p>
       </div>
-      <button onclick="window.location.href ='#'" class="button-suite4">Suite</button>
+      <button onclick="window.location.href ='acteur.php?id=4'" class="button-suite4">Suite</button>
     </article>
 
   </section>

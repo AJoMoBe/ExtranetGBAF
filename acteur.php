@@ -1,3 +1,20 @@
+<?php
+
+session_start();
+require 'auth.php';
+require 'database.php';
+user_connect();
+
+$acteurinfo="";
+if(isset($_GET['id'])) {
+  $reqacteur = $bdd->prepare("SELECT * FROM acteurs where id = ?");
+  $reqacteur->execute(array($_GET['id']));
+  $acteurinfo = $reqacteur->fetch();
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,9 +28,9 @@
   <?php include("header.php")?>
 
   <section class="zone_acteur">
-    <img src="img/CDE.png" class="logo-acteur">
-    <h2>La Chambre Des Entrepreneurs</h2>
-    <p>La CDE (Chambre Des Entrepreneurs) accompagne les entreprises dans leurs démarches de formation. Son président est élu pour 3 ans par ses pairs, chefs d’entreprises et présidents des CDE.
+    <img src="<?php echo $acteurinfo['logo']?>" class="logo-acteur">
+    <h2><?php echo $acteurinfo['nom']?></h2>
+    <p><?php echo nl2br($acteurinfo['description']) ?>
     </p>
   </section>
 
@@ -29,8 +46,8 @@
 
     <div class="affichage-commentaire">
       <ul class="id_comment">
-        <li>Nom</li>
-        <li>Prénom</li>
+        <li>Nom Prénom</li>
+        <li>Date</li>
       </ul>
       <p class="texte_comment">Texte</p>
     </div>
